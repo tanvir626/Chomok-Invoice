@@ -1,0 +1,38 @@
+.invoice-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+table input, table select {
+    width: 100%;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+.remove-btn {
+    cursor: pointer;
+    color: red;
+}
+@media print {
+    button { display: none; }
+}
+
+body {
+    background-image: url("/image/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the full screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+}
+
+.invoice-container {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 20px;
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+ 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
