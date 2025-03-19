@@ -20,7 +20,7 @@ table input, table select {
     button { display: none; }
 }
 
-.body {
+body {
     background-image: url("image/Background.jpg");
     background-repeat: no-repeat;
     background-size: cover; /* Ensures the image covers the full screen */
